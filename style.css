@@ -1,0 +1,107 @@
+
+body {
+    font-family: Bold Sans , sans-serif;
+    padding: 20px;
+    background: url(im.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  html, body {
+    height: 100%;
+}
+  .maincontainer h1{
+    color:#fff;
+    text-align: center;
+  }
+  form label {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    color: #fff;
+  }
+  
+  form input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin:auto;
+    border-radius: 20px;
+    border:2px solid #8f94fb;
+    box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  form button {
+    background-color: #fff;
+    color: #8f94fb;
+    border: 25px;
+    padding: 4px 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 500px;
+    box-shadow: 0px 0px 11px 4px rgba(13, 12, 12, 0.25);
+  }
+  form button:hover{
+    border:2px solid #8f94fb;
+    transition: .3s;
+  }
+  
+  #short-url-container {
+    margin-top: 20px;
+  }
+  #short-url-container p{
+    margin-left: 460px;
+    color: #100707;
+    
+  }
+  
+  #short-url {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #short-url a {
+    word-wrap: break-word;
+    margin-right: 10px;
+    color: #fff;
+  }
+
+  .maincontainer
+  {
+    width:80%;
+    height: auto;
+    min-height:350px;
+    padding:40px;
+    border-radius: 300px;
+    box-shadow: 0px 0px 11px 4px rgba(255, 252, 252, 0.25);
+    background: transparent;
+    background: -webkit-linear-gradient(to right, #8f94fb, #f0f1f8);  
+    background: linear-gradient(to right, #1e1e72, #afb0bb);
+    margin: 50px;
+  }
+
+  #copy-btn{
+    background-color: #fff;
+    color: #8f94fb;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .credit a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+}
+
+.credit {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Verdana,Geneva,Tahoma,sans-serif;
+}
+
